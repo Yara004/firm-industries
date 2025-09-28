@@ -9,84 +9,90 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <!-- Header -->
-    <header class="header">
-        <nav class="navbar">
-            <div class="nav-container">
-                <div class="logo">
-                    <h2>Firm Industries</h2>
-                </div>
-                <ul class="nav-menu">
-                    <li class="nav-item">
-                        <a href="index.html" class="nav-link">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="index.html#about" class="nav-link">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="index.html#products" class="nav-link">Products</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="index.html#contact" class="nav-link">Contact</a>
-                    </li>
-                </ul>
-                <div class="hamburger">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                </div>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Firm Industries</h2>
             </div>
-        </nav>
-    </header>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#about" class="nav-link">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#products" class="nav-link">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#services" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#contact" class="nav-link">Contact Us</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="hero-container">
-            <div class="hero-content">
-                <h1 class="hero-title">Construction Materials</h1>
-                <p class="hero-subtitle">Comprehensive range of construction materials for all building needs</p>
-                <div class="hero-buttons">
-                    <a href="https://wa.me/97172447271" class="btn btn-primary" target="_blank">Get Quote</a>
-                    <a href="index.html" class="btn btn-secondary">Back to Home</a>
-                </div>
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="page-header-content">
+                <h1>Construction Materials</h1>
+                <p>Comprehensive range of construction materials for all your building needs</p>
+                <a href="https://wa.me/97172447271" target="_blank" class="btn btn-primary">Get Quote</a>
             </div>
         </div>
     </section>
 
-    <!-- Product Details Section -->
-    <section class="product-details">
+    <!-- Products Grid -->
+    <section class="products-detail-section">
         <div class="container">
-            <div class="product-content">
-                <h2 class="section-title">Our Construction Material Range</h2>
-                <div class="product-grid">
-                    <div class="product-item">
-                        <div class="product-icon">
-                            <i class="fas fa-cube"></i>
-                        </div>
-                        <h3>Concrete Products</h3>
-                        <p>High-quality concrete blocks, pipes, and precast elements for construction projects.</p>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-icon">
+                        <i class="fas fa-cube"></i>
                     </div>
-                    <div class="product-item">
-                        <div class="product-icon">
-                            <i class="fas fa-brick"></i>
-                        </div>
-                        <h3>Building Blocks</h3>
-                        <p>Durable building blocks and bricks for residential and commercial construction.</p>
+                    <h3>Concrete Products</h3>
+                    <p>High-quality concrete blocks, pavers, and precast elements</p>
+                    <ul>
+                        <li>Various sizes and shapes</li>
+                        <li>High strength</li>
+                        <li>Weather resistant</li>
+                        <li>Custom specifications</li>
+                    </ul>
+                </div>
+                <div class="product-card">
+                    <div class="product-icon">
+                        <i class="fas fa-layer-group"></i>
                     </div>
-                    <div class="product-item">
-                        <div class="product-icon">
-                            <i class="fas fa-hammer"></i>
-                        </div>
-                        <h3>Hardware & Tools</h3>
-                        <p>Essential construction hardware, tools, and equipment for building projects.</p>
+                    <h3>Steel Products</h3>
+                    <p>Structural steel components and reinforcement materials</p>
+                    <ul>
+                        <li>Reinforcement bars</li>
+                        <li>Structural beams</li>
+                        <li>Steel plates</li>
+                        <li>Custom fabrication</li>
+                    </ul>
+                </div>
+                <div class="product-card">
+                    <div class="product-icon">
+                        <i class="fas fa-home"></i>
                     </div>
-                    <div class="product-item">
-                        <div class="product-icon">
-                            <i class="fas fa-paint-brush"></i>
-                        </div>
-                        <h3>Finishing Materials</h3>
-                        <p>Paint, coatings, and finishing materials for construction completion.</p>
-                    </div>
+                    <h3>Building Materials</h3>
+                    <p>Complete range of building and construction materials</p>
+                    <ul>
+                        <li>Cement and aggregates</li>
+                        <li>Insulation materials</li>
+                        <li>Waterproofing solutions</li>
+                        <li>Finishing materials</li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -96,12 +102,9 @@
     <section class="contact-cta">
         <div class="container">
             <div class="cta-content">
-                <h2>Ready to Order Construction Materials?</h2>
-                <p>Contact us today for a personalized quote and expert consultation.</p>
-                <a href="https://wa.me/97172447271" class="btn btn-primary btn-large" target="_blank">
-                    <i class="fab fa-whatsapp"></i>
-                    Get Quote on WhatsApp
-                </a>
+                <h2>Need Construction Materials?</h2>
+                <p>Contact us for all your construction material requirements and project solutions</p>
+                <a href="https://wa.me/97172447271" target="_blank" class="btn btn-primary">WhatsApp Us</a>
             </div>
         </div>
     </section>
@@ -113,29 +116,21 @@
                 <div class="footer-section">
                     <h3>Firm Industries</h3>
                     <p>Building Brands, Shaping Futures</p>
-                    <p>Established 1987</p>
                 </div>
                 <div class="footer-section">
                     <h4>Quick Links</h4>
                     <ul>
                         <li><a href="index.html">Home</a></li>
-                        <li><a href="index.html#about">About</a></li>
+                        <li><a href="index.html#about">About Us</a></li>
                         <li><a href="index.html#products">Products</a></li>
+                        <li><a href="index.html#services">Services</a></li>
                         <li><a href="index.html#contact">Contact</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
-                    <h4>Products</h4>
-                    <ul>
-                        <li><a href="grp-products.html">GRP Products</a></li>
-                        <li><a href="detergent-products.html">Detergent Products</a></li>
-                        <li><a href="construction-materials.html">Construction Material</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
                     <h4>Contact Info</h4>
-                    <p><i class="fas fa-phone"></i> +971 7 244 7271</p>
-                    <p><i class="fas fa-envelope"></i> info@firmindustries.ae</p>
+                    <p>Phone: +971 7 244 7271</p>
+                    <p>Email: info@firmindustries.com</p>
                 </div>
             </div>
             <div class="footer-bottom">
